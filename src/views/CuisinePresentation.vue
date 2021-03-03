@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div class="presentation mt-3" id="presentation">
+  <div class="presentation mt-3 mb-5" >
     <h1 class="mb-2">{{ cuisine.nom }}</h1>
     <main class="container">
       <div class="row">
@@ -17,8 +17,8 @@
 
   <div class="cuisineDetails">
     <h2 class="mt-3">{{cuisine.name}} Notable Dishes</h2>
-    <div class="container">
-    <ul class="row">
+    <div class="container" id="presentation">
+    <div class="row">
       <div v-for="dish in cuisine.dishes" :key="dish.slug" class="col-md-4 col-6 mb-5">
         <router-link
           :to="{ name: 'cuisineDetails', params: { listslug: dish.slug },hash:'#presentation'}"
@@ -27,7 +27,7 @@
           <span class="card__text">{{dish.pinyin}}</span>
         </router-link>
       </div>
-    </ul>
+    </div>
   </div>
   </div>
   
@@ -60,8 +60,8 @@ main img {
   height: 350px;
 }
 .cuisineDetails img{
-  width:350px;
-  height:250px;
+  width:250px;
+  height:180px;
 }
 .card__text {
   position: absolute;
@@ -74,6 +74,6 @@ main img {
   text-decoration: none;
 }
 p {
-  font-size: 20px;
+  font-size: 18px;
 }
 </style>

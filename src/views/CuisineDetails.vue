@@ -2,10 +2,10 @@
   <div>
     <div class="container">
       <div class="row">
-        <figure class="col-6">
+        <figure class="col-md-6 col-12">
           <img :src="require(`@/assets/${dish.image}`)" :alt="dish.name" />
         </figure>
-        <aside class="col-6">
+        <aside class="col-md-6 col-12">
           <h3>{{ dish.name }}</h3>
           <h4>{{ dish.pinyin }}</h4>
           <p class="text-left">{{ dish.description }}</p>
@@ -42,7 +42,7 @@ export default {
 
 <style>
 figure img {
-  width: 500px;
-  height: 350px;
+  width: 350px;
+  height: 250px;
 }
 </style>

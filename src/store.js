@@ -144,7 +144,7 @@ export default {
           slug: "Red-braised-pork",
           image: "RedBraisedPork.jpg",
           description:
-            "The ingredient of this famous Hunan dish is streaky pork, with sugar and cooking wine as the major condiments. The food is related to the first chairman of People’s Republic of China, Mao Zedong. Because Mao didn’t like soy sauce, the chef substituted sugar and salt to season and colorize the pork. Mao liked it, since then Chairman Mao’s Red Braised Pork became popular. Streaky pork should be cut into even loafs and scalded at first. After that, braise the pork loafs with condiments. The taste is salty, sweet, and a little spicy, but it is not greasy.",
+            "The ingredient of this famous Hunan dish is streaky pork, with sugar and cooking wine as the major condiments. The food is related to the first chairman of People’s Republic of China, Mao Zedong. Because Mao didn’t like soy sauce, the chef substituted sugar and salt to season and colorize the pork. Mao liked it, since then Chairman Mao’s Red Braised Pork became popular. Streaky pork should be cut into even loafs and scalded at first. After that, braise the pork loafs with condiments.",
         },
         {
           name: "湖南米粉",
@@ -155,8 +155,8 @@ export default {
             "Hunan Rice Noodles is one of the favorite breakfast in Hunan Province, which has different styles in different regions, like round and flat ones, wide and narrow ones, etc. First boil the rice noodles; then pick them out and place in a bowl with seasonings; at last add soup and kinds of toppings. The frequently used toppings include chopped chili, shredded radish, pickled vegetables, cooked pork shreds, chopped beef, minced garlic, and so on.  ",
         },
         {
-          name: "长沙臭豆腐",
-          pinyin:"cháng shā chòu dòu fǔ",
+          name: "臭豆腐",
+          pinyin:"chòu dòu fǔ",
           slug: "changsha-stinky-tofu",
           image: "changshaStinkyTofu.jpg",
           description:

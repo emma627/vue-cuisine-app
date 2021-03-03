@@ -51,7 +51,12 @@ nav a:hover {
   font-weight: bold;
 }
 nav {
+  display:flex;
+  align-items: center;
+  position:sticky;
+  top:0;
   background: rgb(109, 240, 205);
+  z-index:1;
 }
 ul {
   display: flex;
